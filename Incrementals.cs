@@ -10,13 +10,16 @@ namespace Sololearn
     {
         static void Main(string[] args)
         {
+            //Declare variables and constant 
             const double pi = 3.14;
             double radius;
             
-
-            Console.WriteLine("input the area followed by the radius of your circle");
+            //Ask user for the radius of their cirlce 
+            Console.WriteLine("input the radius of your circle");
+            //Convert raduius from a strong to a double when inputted by the user
             radius = Convert.ToDouble(Console.ReadLine());
             double A = pi*(radius*radius); 
+            //Display the area of the circle to the screen 
             Console.WriteLine("The area of your circle is {0}", A);
             
             
